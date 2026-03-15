@@ -14,13 +14,11 @@ export default function AboutPage() {
         
         <div className="prose prose-neutral dark:prose-invert max-w-none space-y-6 text-lg text-muted-foreground leading-relaxed mb-12">
           <p>
-            I'm Hitesh, a Product Manager with a passion for building elegant, scalable solutions to complex human problems. 
+            I'm Hitesh, an AI Product Manager with strong experience in SaaS, EdTech, and AI-driven product development. 
+            I am passionate about building data-driven learning products that improve user experience at scale.
           </p>
           <p>
-            Over the past few years, I've specialized in taking ambitious zero-to-one ideas and turning them into reality, while also leading growth efforts for established platforms. I believe the best products aren't just useful—they feel inevitable once you use them.
-          </p>
-          <p>
-            My approach to PMing is deeply cross-functional. I spend as much time understanding the technical constraints with engineers as I do dissecting user psychology with researchers. I thrive in environments where the requirements are ambiguous, the stakes are high, and the team is hungry.
+            Currently, I am building and scaling AI ventures at Aavtaar.ai, leading the core conversational voice platform. My expertise lies in user research, roadmap planning, and cross-functional delivery to take products from ideation to scalable success.
           </p>
         </div>
 
@@ -43,34 +41,34 @@ export default function AboutPage() {
             </div>
         </div>
 
-        <h2 className="text-2xl font-bold tracking-tight mb-8">My Product Philosophy</h2>
+        <h2 className="text-2xl font-bold tracking-tight mb-8">Core Skills & Competencies</h2>
         
         <div className="grid sm:grid-cols-2 gap-8">
           <div className="space-y-3">
-            <h3 className="font-bold text-foreground">1. Ruthless Prioritization</h3>
+            <h3 className="font-bold text-foreground">AI & Technology</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Saying "no" 99 times so the one "yes" has the oxygen it needs to survive. Focus is the ultimate competitive advantage.
+              Generative AI, Agentic AI, LLMs, Voice AI, Conversational AI, NLP, AIOps
             </p>
           </div>
           
           <div className="space-y-3">
-            <h3 className="font-bold text-foreground">2. Speed to Learning</h3>
+            <h3 className="font-bold text-foreground">Product Management</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Shipping isn't the goal; learning is the goal. Shipping is just the most expensive and accurate way to learn.
+              Product Strategy, Roadmap, GTM Strategy, SaaS, Agile, UX
             </p>
           </div>
           
           <div className="space-y-3">
-            <h3 className="font-bold text-foreground">3. Design Details Matter</h3>
+            <h3 className="font-bold text-foreground">Business & Strategy</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Users don't read manuals. The interface is the product, and micro-interactions dictate how a user feels about the underlying technology.
+              Stakeholder Management, B2B, Revenue Growth, Analysis, Leadership
             </p>
           </div>
           
           <div className="space-y-3">
-            <h3 className="font-bold text-foreground">4. Strong Opinions, Weakly Held</h3>
+            <h3 className="font-bold text-foreground">Product & Data Tools</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Have conviction in your vision, but be the first to admit when the data proves your hypothesis wrong. 
+              Figma, Draw.io, Balsamiq, Jira, Trello, Google Analytics, SQL, Python, MongoDB
             </p>
           </div>
         </div>
