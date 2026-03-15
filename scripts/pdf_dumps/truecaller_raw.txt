@@ -1,0 +1,107 @@
+Product Teardown   
+Analysing Truecaller Notifications
+
+Mission
+“We are on a mission to build trust in communication”
+Business modelsWhat’s Truecaller? 
+Truecaller is a leading global platform for verifying
+contacts and blocking unwanted communication
+founded by Nami Zaringhalam & Alan Mamedi in 2009.
+Truecaller in numbers 
+374 M
+Avg active users1 B+
+Downloads1100 B+
+ Unknown calls & SMS Identified50 B 
+Blocked spam calls  1. Free subscription with ad revenue
+2. Paying premium subscribers
+3. Truecaller BusinessCompetitors
+Hiya mr number Showcaller Product Overview
+
+Truecaller’s target audience consists of working professionals who highly rely on
+phone communication such as sales people, business owners and real-estate
+agents. They belong to the 25 - 40 year old age group, and have different needs. 
+Here, we are considering two such personas:
+User Persona 1: Rahul CEO
+User Persona 2: Mayuri Sales ExecutiveWho are the target users?
+User Segmentation
+
+Behaviours :
+1.Frequently updates his contacts with important
+connections and categorises for easy recognition
+2.Activates ‘Do not Disturb’ mode during focus
+hours.
+Needs : 
+1.A smart call filtering system to prioritize calls
+from Investors and clients & to block unwanted
+sales and spam calls.
+2.A real time caller id to assess relevance of calls.
+Pain Points :
+Name : Raj 
+Age : 37
+Location : Hyderabad
+Occupation : CEO & CO-founder of a tech startup1.Excessive interruption from unknown and low
+priority calls
+2.The risk of missing important calls by ignoring all
+unknown numbersPersona 1
+
+Name: Niharika Jain 
+Age : 25 
+Location : Bangalore
+Occupation : Senior Sales Executive at an Ed-
+tech company       Behaviours :
+1. Set reminder for follow up calls and uses call notes
+to keep track of client discussions.
+2. Doesn't save numbers of prospects after calling
+them.
+Pain Points:
+1. High stress from juggling numerous leads and calls,
+making it easy to miss follow ups or incoming calls
+from prospects
+2. Frustration when missing a callback from lead
+initially reached out to, leading to prospect losing
+interest
+Needs : Instant caller identification and history to
+recognise potential prospects Persona 2
+
+Annoyance Curiosity CautionUser emotions throughout the above journey
+➡ ➡
+Empowered and secureSatisfactionHow does the journey of a user look like after
+receiving a notification?
+😠 🤔 😬 🫡 😌 ➡ ➡
+
+Types of notifications in Truecaller
+1. Caller identification notification : Real time
+identification of unknown numbers before
+answering
+2.Spam alert notification (In-app) : Warns users
+about high risk or reported spam numbers
+3.Missed call notification
+4. Call report notification: Allows users to quickly
+report a call as spam.Key Insights
+
+Spam alert background colour Missed call notification icon Dark mode compatibility
+Red background for spam
+calls visually differentiates
+spam calls and regular callsThe distinct missed call icon
+offers a quick action for user to
+redial or ignore.Notifications adapting to dark
+mode maintain readability and
+aesthetic appeal in low light
+environmentsWhat is special about the UI & UX?
+
+Key metrics to focus on
+
+Implementing more personalised notifications based on user
+behaviour could really help Truecaller improve the user
+engagement
+ Truecaller could add a smart option for its users to customise
+notification preferences to give them more control, rather than
+seeing every single notification .
+ By adding context to the upcoming notifications- Like why a call
+was flagged or who is calling could improve the user
+understanding towards the application.Scope for improvement
+
+Thank You!
+B y PRABHPREET SINGH
+ AJMANI
+

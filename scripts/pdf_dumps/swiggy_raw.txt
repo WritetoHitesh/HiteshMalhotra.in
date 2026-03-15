@@ -1,0 +1,355 @@
+Ghar Ka Khana, Saath Mein Thoda Swiggy! 
+Key Stats 
+👤
+ 20 Million 
+MAU  🌆
+ 250+  
+Cities 
+🍲
+ 130K+ 
+Restaurants 
+📲
+ 40% 
+Market Share About Swiggy 
+Founded in 2014, Swiggy is an Indian food ordering & 
+delivery app. Besides food delivery, the platform also 
+provides on-demand grocery deliveries under the name 
+Instamart, and package delivery service called Swiggy 
+Genie. 
+ 
+Goal: The market for home cooked 
+meals is worth considering, drive 
+the initiative to launch an MVP. 
+Sources - 1, 2, 3, 4
+
+Meal Makers Why should Swiggy enter a new market of Home cooked meals? 
+How Real is the MARKET and actor needs? 
+●22*% Working professionals, staying in Tier 1 cities & ordering daily look out for  Home Cooked Meals! 
+●25*% found it difficult  to searching for options such as Tiffin Services 
+●40% Women homemakers , T-1 City, prefer to spend their afternoon free time  pursuing cooking - “feel 
+engaged & extra income helps! ”
+What is the Market Size?   Potential Market Size and understanding Business Model 
+MAU 20Mn 62.5% 
+*Tier-1 
+Users 60%
+*Working 
+Professional 4.3Mn 
+*Daily users 
+looking for 
+HMM 58%Users 
+✖ ✖ ✖
+**Tier 1 
+Population 65Mn 48%
+**Women 
+Segment 15%
+**Age: 
+35-50 0.5Mn 20%
+Home 
+maker*** **Middle 
+Class 60%✖ ✖ ✖ ✖Home Made Meals Business Model 
+*survey1 , **reference: IIMA Casebook, *** survey2 Mind Map 
+
+  Validation from Research 
+What Users feel? 
+(32 Respondents, 2 Interviews, Survey , Response )
+62% From T-1 
+City
+37% Total 
+Users order 
+daily 56% Working 
+Individuals 
+65% Ordering 
+during lunch/ 
+dinner 
+81% Look for 
+Guilfree / 
+Delivery Time 56% AOV b/w 
+₹150-250 
+Key Insights: 
+1) T1 based Working Professional  feel 
+the need for Homemade Meals for regular 
+lunches/dinner 
+2) Choose to opt for ordering healthier 
+food and convenient delivery slot What Meal Makers feel? 
+(10 Respondents, 2 Interviews, Survey , Response )
+60% Middle (U&L) 
+Class 70% Age b/w - 
+35-50 
+80% 
+HomeMakers 20% willing to 
+become a 
+mealmaker 
+Key Highlights: 
+1) All of them feel 
+lunch slot(1-3 PM) 
+apt for cooking 
+2) All of them feel 
+Swiggy should 
+assist to get FSSAI 
+certificate Evening Slot Breakfast Slot 
+Lunch Slot Dinner Slot Interviews 
+“Being a working 
+professional and provided 
+that my office does not 
+have lunch service/ 
+canteen, I often use 
+swiggy for my lunch 
+meal.  I tried monthly tiffin 
+services but it has 
+limited healthy options 
+& I don’t want to pay 
+when i’m not using it ” 
+- Smarajit, 25, Analyst 
+“I Usually spend my 
+afternoons watching TV 
+show or cooking for my 
+vlog - would love to tie up 
+with swiggy for this. It 
+would be great if Swiggy 
+helps in gaining FSSAI 
+certification ” 
+- Vandana Singh, 48, 
+Homemaker 
+
+
+  Problem Framing, MVP Scope and User Persona 
+ 
+Goals: Get regular and healthy cuisine lunch 
+meals easily- without explicit searching & 
+ordering, and manageable price 
+Pain Points: No office canteen service - explicit 
+swiggy food searching  is tiring . Tiffin service 
+lacking  health options and inconsistent pricing 
+Frustration: Tired of explicit searching of food 
+and tiffin services’ inconsistent monthly pricing - 
+does not want to pay for food when not 
+needed/ordered 
+Goals: To utilise her free hours  - cooking for 
+swiggy and earn extra Income !
+Pain Points: Feels bored during afternoon. 
+Cooking on Instagram feels  1-dimensional - no 
+real response and income. Wants help with 
+FSSAI certificate 
+Frustration: No real response from insta about 
+her passion for cooking , wants to cook for extra 
+income and avoid afternoon boredom. User Persona        MVP Scope 
+Redefining the Problem: 
+Ⓐ Users find tiffin services to be lacking 
+healthy options,face inconsistent monthly 
+pricing - paying when not ordering. 
+Ⓑ Meal Makers  - cooking for insta 
+pages(& passion ), don’t sense 
+gratification - want to be engaged to 
+avoid boredom. Also, don’t know how to 
+become verified cooks 
+Chirag, Gurgaon 
+Age: 25, Analyst 
+Daily Swiggy user 
+for lunch - no office 
+canteen, tried Tiffin 
+services. 
+Aradhana, Gurgaon 
+Age:49,Homemaker 
+Lots of free time in 
+Afternoons. Runs 
+her food insta page. 
+
+  Value Creation & Solution Approach 
+Value Created for User:  
+Implicit lunch delivery : Home Made lunch delivery at 
+preferred slot 
+Better Options : Healthier options & suitable pricing  to 
+choose from 
+Value Created for Meal Makers: 
+Better Engagement: Engagement option with the user, 
+receive gratification and avoid boredom 
+Monetisation : Extra Income & FSSAI certification 
+Value Created for Business: 
+Monetisation: Additional Source of revenue for Swiggy 
+=> Target Segment(TS)  * Pricing 
+=>TS = MAU * %T1 Users  * %Working     
+professionals * %Daily users*%lunch users 
+=> 20mn * 62.5% * 60% * 58%* 0.50% =  2.1 Mn 
+Assuming, 80-20 split b/w regular & healthy meals, 
+Potential Revenue = 2.1*(0.8*175+0.2*200) =₹38 cr/week 
+Differentiation in Market: Swiggy holds 40% Market 
+Share - can increase this by entering HMM Market Why Should we solve this? 
+●Online food delivery growth -  4.7 to 10.2 Bn @12% 
+annual growth 2016-2020 & projected - $18Bn by 
+2024 @12% growth - (source )
+●Organised food delivery - GMV $1.5 billion, 34% of 
+this Market prefers Home Made food (source )
+●Potential to tap the market - right now governed by 
+the unorganised delivery platforms (source )
+●Enhance overall user experience for existing 
+Swiggy users 
+Solution Approach MVP 
+●City: Launching MVP in Gurgaon  - a prime 
+location for working professionals & hefty Swiggy 
+user base 
+●Slot: Lunch  Delivery for users - 1 to 3pm 
+●Food Cuisines : Regular Meal Boxes & Healthy 
+Meal Boxes -1day prior option choosing(if needed)  
+●Pricing : Weekly & Monthly Subscription pricing 
+●Engagements section for Meal Makers  with Top 
+Cook of the month, Cook interviews,City Rating 
+
+  MVP Solutioning, Pricing & Future Options: Brainstorming 
+Cuisines 
+Idea: Combo of Regular cuisine, 
+rice &(or) bread of choice 
+Will if work? Yess!!   
+1) Easy to prepare 
+2) 40% ordering lunch prefer this 
+Idea: Combo of Vegan Cuisine, 
+browne rice &(or) Salad 
+Will if work?  Yess!! 
+1) Easy to prepare 
+2) 30% ordering lunch prefer this 
+Idea: Combo Non Veg Cuisine, 
+Biryani &(or) bread of choice 
+Will if work?   Future Prospect 
+1) Difficult to prepare 
+2) 20% ordering lunch prefer this 
+ 
+Period AOV Competitive Price Pricing {per meal(pm)} 
+7 ₹1225 ₹159*7 = ₹1113 Price = min(1225,1335) = ₹1225pm 
+Profit = 1225-(120*7) = ₹385pm 
+15 ₹2625 ₹139*15 = ₹2085 Price = min(2625,2502) = ₹2502pm 
+Profit = 2502-(120*15) = ₹702pm Delivery Cost(DC): ₹30 pm, Meal Maker Cost(MMC): ₹90pm & 20% 
+higher margin than competitors (assumptions). 
+Offering 3 day free trial to new users!! 
+Price = min(AOV, 1.2*CP),Profit = Price- DC - MMC 
+7 ₹1400 ₹250*7 = ₹1750 Price = min(1400,2100) = ₹1400pm 
+Profit = 1400-(140*7) = ₹420 pm 
+15 ₹3000 ₹210*15 = ₹3150 Price = min(3000,3780) = ₹3000pm 
+Profit = 3000-(140*15) = ₹900 pm Healthy Meal Box, Competitors: Parafit.in & Food Darzee, AOV 
+(Guilt Free users) = ₹200 pm, MMC = ₹110, Trial Rate: ₹260 pm 
+Veg Box Meal(VM) 
+Healthy Meal Box(HM) 
+Non Veg Meal Box(NVM) 
+Pricing 
+Veg Meal Box, Competitors: WellServed.in, AOV = ₹175 pm, 
+MMC = ₹90, Trial Rate: ₹180 pm 
+
+  MVP Solutioning, Pricing & Future Options: Brainstorming 
+Idea:  Display “Top meal maker of 
+the month” badge against cook’s 
+name - along with profile 
+Will it work? YESS!! 
+1) Engagement will lead to sense 
+of gratification, less boredom for 
+meal makers 
+2) It will lead to an increased 
+desire to become a TMM, leading 
+to good quality cooking 
+Idea: Integrate video platform API’s 
+- meal makers can share their video 
+recipes. 
+Will it work?  Future Prospect 
+1) Meal Makers would feel engaged 
+leading to less boredom 
+2) Meal Makers community gets 
+developed - enhancing overall 
+cooking experience & level grows Meal Maker of the Month 
+Idea: A Chatbox for interaction 
+amongst cooks - sharing tips & 
+customer feedbacks 
+Will it work?  Future Prospect 
+1) Interaction amongst meal makers 
+would increase meal maker’s 
+engagement 
+2) Sharing tips and good customer 
+feedbacks will increase the drive to 
+perform better Meal Maker’s Secret Recipe Meal Makers Chatbox 
+Priortising Solutions Reach Impact Confidence Effort RICE Score 
+Meal Maker of the Month 4 4 4 2 32
+Meal Maker’s Secret 
+Recipe 4 3 3 5 7.2
+Meal Makers Chatbox 4 2 4 4 8
+How will it work? 
+While ordering Users will 
+see the Badge against 
+meal maker’s names 
+Does it make sense? 
+Survey indicates - Cooks 
+want engagement & the 
+solution offers this at less 
+effort  
+
+
+  Wireframe & User Journey 
+Ⓐ Added 
+HomeMade section 
+on homepage - easy 
+for users to locate 
+Ⓑ Users can view: 
+1) Their current 
+     subscription 
+2) Top Chefs’ Profile 
+3) Select delivery slot 
+Ⓒ Users can select 
+their cuisine (for new users 
+- image of that day’s cuisine will 
+be displayed - new cuisine 
+everyday, repetition after 7 
+days)
+Ⓓ Users can view: 
+1) Choose their 
+Subscription 
+2) Choose add-ons 
+Ⓔ Payment Page 
+- users can review 
+and pay their 
+order 
+Wireframe  Source 
+
+
+  Success metrics, Future Prospect & Awareness, Pitfalls 
+Reach TYPE 
+Activation 
+Engagement 
+Retention North Star 
+Metric Metrics 
+% (Existing users opting for trial or 
+subscribing per month / Swiggy MAU), 
+No. of mealmakers onboarded per month 
+% (New users opting for free trial )  /  
+Total no. of users visiting ‘HomeMade’ 
+section on homepage 
+%(Users clicking on MealMakers’ Profile, 
+checking menu) /  Active Users 
+% (Weekly or Bi-weekly plan renewing 
+subscribers / No. of active subscribers), 
+Meal Makers Churn Rate% per month  Active Users No. of users choosing free trial or 
+subscribing (per week, per 2 weeks) Pitfalls 
+1) Meal Makers: Less onboarding of verified 
+meal makers. For mitigation help mealmakers in 
+getting FSSAI certification. 
+2) Delivery Partners: Overshoot in orders might 
+lead to mismanagement of deliveries. For 
+mitigation distribute homemade deliveries to 
+separate group of delivery partners. 
+3) Low Conversion: Low subscription rate. For 
+mitigation increase food options, competitive 
+pricing, extensive focus on customer feedback 
+No. of successful orders per week, 
+No. of subscriptions per week(2-weeks), 
+CSAT  (Hot & Ideal Delivery) 
+1) Corporate Lunches  
+services for small 
+businesses & startups 
+2) T1 City Expansion - 
+Bengaluru 
+3) Cooks Engagement : 
+Video Recipe, Chatbox 
+4) BreakFast & Dinner 
+Meals,more food items 2) SMS, Notifications  to 
+ActiveUsers, organic 
+marketing- insta stories/reel 1) Add Homemeal  panel 
+on Swiggy food, 
+instamart home pages - 
+like “Guilt Free” section 
+3) Flyer distribution  at 
+houses post delivery Future Prospect Awareness 
+

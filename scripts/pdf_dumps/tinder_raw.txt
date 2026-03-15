@@ -1,0 +1,414 @@
+OBJECTIVE: As a PM on the Growth team of Tinder address the problems of ‘where to meet’, ‘where to eat’ and
+‘what to do’.Why? What?
+Create profile Set Preferences Swipe to indicate like Match ChatSwipe-based online dating app Tinder: “Swipe right”
+3M:1F
+GENDER RATIO
+27%
+MARKET SHARE (US)
+75M
+MAU
+65%
+Users <35 yrs old
+S o u r c e
+Why Tinder?
+Tinder is the Leading global dating app with extensive
+user data for behavior and trend analysis.1.
+Tinder pioneered the swipe interface, making it an
+interesting case study. Moreover, Tinder continuously
+innovates with features like Super Likes and Swipe
+Surge.2.
+Has largely Influenced dating norms and social
+interactions, shaping modern relationships!3.Competitors
+
+Mankaa Jain
+Human Resources
+Dating is about getting to know
+someone special.
+Often people join dating apps
+hoping to find balance, but they
+quickly realize that the quality of
+matches isn't what they
+expected, so they leave.Ayushi Jain
+(23yrs), Business Analyst Pushpit Virmani (28yrs),
+Product Manager, Paytm
+Tinder’s large user base and easy
+swipe feature attract users. Innovative
+features like Super Likes boost
+engagement. It simplifies meeting
+new people.The perfect date is well-planned and
+unique, offering a personalized
+experience. It involves engaging activities
+and dining without planning stress"I have faced majorly two problems, its incredibly hard to
+find places to go to and things to do for dates. This
+problem increases more with the more number of dates
+you go to."
+I’m a foodie, and I love exploring new places, the issue is
+that its a hassle to find places to eat that my partner wants
+to visit as well. It becomes a task before going on dates
+Users spend time messaging to decide
+plans and use multiple apps for ideas. This
+often results in conventional, uninspired
+dates.Need to go on dates with
+potential partners but
+often waste time being
+indecisive about where to
+meet.
+Need to choose a place to
+eat but end up spending
+too much time debating
+options.
+Need to decide on fun date
+activities but often
+struggle to agree on
+something both will enjoy
+A closer look into the why
+users are choosing TinderWhat does the perfect date
+look like for the user?Understanding the Online Dating Landspace
+How are the users solving these
+problems currently?VSUser
+needsPain
+Points
+
+Users: 1000+
+4M:1F
+Median Age: 24Data Analysis
+on GithubONLY 16% HAVE MET A
+PARTNER THROUGH
+DATING APPS ~55% OF
+THE CONVERSATIONS
+DON'T END UP WITH A
+DATE
+ONLY 68% OF
+RESPONDENTS
+ALIGN DATING
+APPS WITH
+LONG-TERM
+DATINGMALES ARE 8 TIMES
+MORE LIKELY TO SWIPE
+RIGHT A PROFILE
+FEMALES ARE 18
+TIMES MORE LIKELY TO
+GHOST A MATCH USERS PURSUE
+THEIR MATCH
+FOR 2 DAYS ON
+AVERAGE
+Around 30% of users
+eventually ghost their
+match, possibly
+because of unfruitful
+dating experience .
+S o u r c eIn general, people
+are finding it hard to
+meet possible
+partners in real life.
+S o u r c eMinimal and selective
+self-information.
+Limited knowledge of
+mutual interests.
+Hard to find a
+convenient location.
+34% RESPONDENTS
+FIND IT DIFFICULT
+TO START A
+CONVERSATION
+AROUND 50% OF
+USERS NEVER
+ACTUALLY GO
+ON DATESUsers want to go on
+dates with each other
+They can’t decide on
+where to meetThey can’t decide
+on where to eat
+30% OF
+CONVERSATIONS
+END WITH JUST
+ONE MESSAGE
+EXCHANGED
+USERS SWIPE 111
+TIMES/DAY ON AN
+AVERAGEHard to agree on
+cuisine. 
+Different dietary
+preferences.
+Unfamiliar with
+local options.They can’t decide on
+what to do
+Key takeaways from secondary researchSecondary Research What is causing the issue?
+How do we know this is a real problem?Can't decide on
+activities.
+Limited knowledge
+of local options.
+Uncomfortable with
+new experiences
+THERE’S ABOUT
+A 25% INCREASE
+IN THE NUMBER
+OF TIMES THE
+APP IS OPENED
+DURING THE
+HOLIDAY
+SEASON
+
+Users face confusion and frustration when planning dates
+due to indecisiveness and lack of creativity. This results in
+repetitive and uninspired date experiences, exacerbated by
+time constraints and busy schedules.
+Garv leads a busy professional life and is quite
+active on Tinder. He has no issue finding
+matches, but is constantly running out of ideas
+with each new date
+Motivations: Wants to go on engaging dates that eventually
+lead to something serious
+Challenges: Has trouble finding ideas about where to go
+and what to do for his dates. 
+Frustrations: He is frustrated when he and his partner are
+unable to come up with a date idea that both of them will
+enjoyProblems and their Solutions Putting the true problem in perspective
+Who is the ideal user we should target?
+Garv Sharma, 23 yrs, IT professional, DelhiWHERE TO MEET
+1: Smart Meeting Point Suggestions - Using AI and tracking history
+data for both partners, recommend meeting points close to both
+of their locations. This can come within the chat from an automated
+bot that can ask for poll for suggestions from time-to-time.
+2. Favorite Spots List: While creating the profiles, allow users to
+create lists of their favorite or frequently visited spots, which can
+be used as quick suggestions for future dates.
+WHERE TO EAT
+1: Dynamic Restaurant Finder: A recommendation algorithm that
+suggests restaurants based on user profiles, including cuisine
+preferences, dietary restrictions, and prior dining history
+2. Local Cuisine Explorer: A feature that highlights trending and
+highly rated local restaurants, including user-generated
+content like reviews and photos. 
+WHAT TO DO
+1: Activity Matchmaker: A tool that pairs users with activities
+based on shared interests. Offer a variety of categories such as
+outdoor activities, cultural events, and workshops.
+2. Curated Experience Package: Offer curated date packages
+that include a combination of activities, dining, and
+entertainment.  Around interests, such as adventure, relaxation,
+or culture, these can be booked directly through the app.
+
+SOLUTION REACH IMPACTCONFIDENCEEFFORTR.I.C.E SCORE
+Activity Matchmaker 90 3 80 100 216
+Local Cuisine Explorer 85 2 80 100 136
+Meeting Point Suggestion 90 2 80 250 144
+Favourite Spots List 80 1.5 75 90 100
+Dynamic Restaurants  Finder 80 2 70 200 53
+Curated experience package 75 1.4 70 400 20Solution Prioritization
+What value, solving this, will bring to
+the user?
+Increase in
+total offline
+datesIncrease in
+overall
+satisfactionIncreased growth
+of the app an its
+user base
+Enhanced
+Trust and
+Confidence on
+the platformIncrease
+in usage
+of the
+appReduced
+Emotiona
+l DistressImproved
+Quality of
+ConnectionsIncreased
+number of
+successfull
+datesTop Solutions
+1: Activity
+Matchmaker
+.2. Local Cuisine
+Explorer
+3. Meeting point
+suggestion
+Working on the
+solutions, we can
+club the top the
+solutions into
+One product based
+solution that tackles
+all  3 of our issues
+We shall call this the
+“DATE”
+
+Why will this work?
+This solution works by delivering highly
+personalized and relevant date
+suggestions through AI-driven matching
+and real-time data integration. Seamless
+booking and continuous feedback
+refinement ensure a user-friendly
+experience and ongoing improvement.
+Both users are prompted to fill in their
+preferences for the date. This includes:
+Meeting Place: Users can select or
+suggest locations that are convenient for
+both.
+Dining Preferences: Options for cuisine
+types, dietary restrictions, and preferred
+dining atmospheres.
+Activity Choices: Interests and hobbies,
+ranging from outdoor activities to cultural
+events.Step 1: Gathering Preferences
+The app uses AI to cross-reference the
+inputs from both users, identifying
+common preferences and highly rated
+options in their vicinity. This ensures that
+the suggestions are not only convenient
+but also aligned with what both users
+enjoyStep 2: Intelligent Matching
+Based on the matched preferences, the app
+generates a list of curated date ideas,
+including suggested meeting points, dining
+venues, and activities. Each suggestion
+comes with detailed information, such as
+distance, user ratings, and available booking
+options.Step 3: Real-Time Suggestions
+How to ensure an improved
+dating experience
+Preference Collection Mechanism
+Detailed User Inputs: Detailed inputs on
+meeting locations, dining preferences, and
+activities. The app must handle various
+data types and ensure that preferences are
+accurately recorded and understood.
+AI-Driven Matching Engine
+Algorithm Complexity: The
+recommendation engine uses machine
+learning to analyze user inputs and
+match preferences. This requires
+advanced algorithms to process and
+correlate large amounts of data
+effectively.For the problem in perspective, what can be the potential solutions? Intracacies of the
+proposed solution
+Using data from previous dates and user
+feedback, the recommendation engine
+continuously improves, providing more
+tailored and creative suggestions over time.
+This personalization enhances the overall user
+experience, making each date unique and
+memorable.Step 4: Personalized
+Recommendations
+
+Enabling the DATE 1.
+A new button DATE
+becomes available which
+the users can click into to if
+they want to go to dates
+together2. Date Preferences
+3. Filling in What to do
+As shown, the users get
+various cars to select from
+according to their liking
+Checkout the complete
+wireframe here4. Filling in what
+to eat/drink
+5. Enablement
+Once all preferences are set
+for a user, they can turn on
+this feature. If both the
+partners turn it on, it means
+the users are interested in a
+date with each other and can
+proceed with the likingsHow will it look on Tinder?
+Users first fill in their “What to
+do”, “Where to eat”, “Where to
+meet” preferencesHere, the user fill in the
+choice of food they like to
+eat, the kind of restaurants
+they like to go to and so on!
+
+
+Continuously refine the algorithm
+with user feedback and integrate
+third-party data sources for
+richer suggestions.Implement smart defaults and use
+historical data to auto-fill
+preferences based on past behavior.A high-level system design of the solution What can go wrong with
+this?
+Users may not accurately fill
+in their preferences, leading
+to suboptimal suggestions.
+Load BalancerApplication
+ServersAPI
+Hinge userDatabase Server
+User’s DataAI Processing
+ServerMachine
+Learning Models3rd Party
+Integration
+User s log in and provide
+initial inputs based on
+preferences for datesIf requested data
+exists it is
+retrieved and
+sent to the API
+ServersResults are cached for quick accessAI servers run machine
+learning models to
+generate personalized
+date recomendationstrain on past data
+to predict future
+needs
+interface with
+external APIs for
+real-time date
+recommendations
+API servers send
+user data to AI
+processing serversCompiles personalizes
+recommendations and
+send them back ti the
+UI
+Database Server
+Partner’s Data Limited data could result
+in generic
+recommendations.
+
+
+Metric Descrription
+NORTH STAR
+Percentage of People Using
+the Date Feature The proportion of users who utilize this feature.
+=Users using the feature/Total Users
+L-1
+NPSCollect feedback after this feature to assess its
+accuracy an impact
+L-2
+CSAT ScoreThe average customer satisfaction score
+=Number of satisfied customers/sample size 
+New Sign-Ups: The number of new users who register for the
+app.Mapping Success
+Easier, Quicker
+and Better
+decisions by
+users about
+dates
+Increase in brand value an
+organic growth
+Increased
+SatisfactionIncreased
+number of
+subscribers
+Increased
+Active Users
+Increased
+Revenue
+Comprehensive Dating Ecosystem: Transform
+Tinder from a simple matching platform to an all-
+in-one date planning and experience hub.
+User Loyalty and Retention: Foster stronger user
+loyalty by addressing key pain points, leading to
+higher retention rates and more active users.
+Partnership Opportunities: Collaborate with
+restaurants, entertainment venues, and service
+providers for exclusive deals and seamless
+booking, generating additional revenue streams.
+Market Leadership: Establish Tinder as the
+leading dating app that not only connects people
+but also ensures their dates are memorable and
+enjoyable.What can be the long-term
+vision for this?
+

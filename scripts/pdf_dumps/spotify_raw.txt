@@ -1,0 +1,321 @@
+P r oblem Analy sisP r oblem V alida tionP rioritiza tionS olutionsM e trics & AnalyticsS po tify  is a digit al music servic e which allo w s y ou ac c ess t o millions o f  songs and 
+podc asts f or  fr e e
+S po tify  oper a t es on a fr eemium business model. T ha t means tha t some o f  its 
+servic es can be ac c essed f or  fr ee while o ther s can be ac c essed b y  pa ying a f eeI ncr ease the number  o f  activ e subscriber s t o the S po tify  P r emium planI n this case, le t us de fine the activ e subscriber s o f  S po tify  P r emium as 
+those subscriber s who open the S po tify  app f or  an y  14 da y s a ft er  the 
+billing da t e o f  this mon th and be f or e the billing da t e o f  ne xt mon th. 
+T he amoun t o f  time spen t on S po tify  on each o f  this 14 da y s or  tw o 
+w eeks does no t ma tt er .
+
+A ctiv e S ubscriber s o f  S po tify  P r emium = % P r emium subscriber s * 
+S ubscriber s who open the app 14/30 da y s a ft er  the billing da t e and 
+be f or e ne xt billing da t e
+
+W h y  14 da y s ?
+T aking an e xample o f  S po tify  P r emium mini challeng e, the challeng e 
+enc our ag es y ou t o list en t o music f or  14 da y s. I t must be an importan t 
+quan tifiable me tric f or  S po tify . S o, w e can sa f ely  c onsider  14 da y s(M ost o f  S po tify’ s R e v enue c omes fr om pr emium subscrip tions & adv ertisemen ts )A nnual R e v enueT ar g e t D emo gr aphicsT o tal M ark e tMA UR & D c ostsP r emium r e v enueList ener sA dv er ti ser sC o n t en t  C r e a t o r sS po tify  A pp11. 72  bn eur o55 % user s b /w  1 8- 34 1 7 0 C oun tries3 8 1 M illion1.3 8  bn eur o10. 25  bn eur oB usiness M odelP R ODUCT  DI S C O V ER YW h o ar e t h e in v ol v ed act or s ?
+W h a t do w e mean b y  acti v e subscriber s ?G oalH o w  do es  S po tify  mak e  mo ne y?S po tify  P r emiumS ponsor ed P laylists,
+B r anded M omen ts & 
+S ponsor ed S essions,
+Vide o T ak e o v er ,
+D isplay  adv erts,
+O v erlay  adv ertsP artner ships 
+agr e emen ts with r e c or d 
+labels & musiciansT ar g e t ed ads based on 
+user  dat a & analyticsL ic ensing agr e emen ts 
+with music publisher s & 
+c op yrigh t or gs . S ub s c ri p tio ns Li c ensin g A dv er ti sin gP a rtner s h i p sD a t a &  A n a l yti c s
+
+
+P r oblem Analy sisP r oblem V alida tionP rioritiza tionS olutionsM e trics & AnalyticsR e v enueS ubscrip tions# S ubscriber s# R e turning S ubscriber s# N e w  S ubscriber s
+% Canc ella tions# T o tal S ubscriber s# R ecurring S ubscriber sX++
+-C ost per  S ubscrip tionA dv ertisemen tsLic ensing & 
+P artner ships
+M apping B usiness O ut c omes t o P r oduct O ut c omes
+V alida ting the pr oblem with the help o f  user  r esear chS po tify  earns its r e v enue lar g ely  fr om pr emium subscrip tions, adv erti-
+ser s and partner ship agr eemen ts with r ec or d labels and musicians
+*  T he number  o f  ne w  &  r e turning subscriber s can be tr ac k ed with the 
+help o f  CTR  o f  the spo tify  pr emium bu tt on, as the r ecurring subscrib-
+er s will ha v e the aut o-pa y  f ea tur e turned on alr eady  and the number  
+o f  r ecurring subs .  who chang e the plan can be tr ac k ed seper a t ely  O ut o f  these 61.1%  user s 48%  user s w er e willing t o shar e their  pla ylists if  
+their  friends / c olleagues w an t, the y  j ust ne v er  though t about it 
+F r om the surv e y , it can also be seen tha t among those user s who don ’ t 
+ha v e pr emium, 17.4%  f eel tha t it is v ery  e x pensiv e while 17.4%  f eel tha t 
+the y  don ’ t use the app as much t o buy  a pr emium subscrip tion . 
+
+User Interviews
+I  c onduct ed 6  user  in t ervie w s with user s wher e 2  user s w er e subscribed 
+t o S po tify  P r emium while 4  user s w er e no t subscribed t o it 
+T hr ough the in t ervie w s it w as ga ther ed tha t the main pain poin t o f  user s 
+w as tha t the y  fi nd it di ffi cult t o disc o v er  ne w  and r ele v an t music thr ough 
+the app .  I n f act the y  don ’ t e v en use the app t o disc o v er  music 
+F or  the non-pr emium user s, the y  w an t t o try  the pr emium music e x peri-
+enc e but the y  ar e no t willing t o shell out tha t much mone y  f or  the sub .  T o incr ease the number  o f  activ e subscriber s, w e ne ed t o r educ e the 
+per c en t ag e o f  pe ople c anc eling their  subscrip tions and incr ease the 
+number  o f  new  subscriber s.
+61.143.561.138.9(Surv e y)O ut o f  the user s surv e y ed, 61.1%  don ’ t use S po tify  P r emium, 
+while 31.1%  ha v e a S po tify  P r emium subscrip tion43.5%  o f  the user s who don ’ t use S po tify  P r emium ar e sa tisf -
+ied with the fr ee f ea tur es and don ’ t wish t o pa y  f or  pr emiumW hen as k ed if  the y  shar e their  pla ylists t o their  friends or  
+add friends t o their  pla ylists, 61.1%  user s said the y  don ’ t
+
+
+P r oblem Analy sisP r oblem V alida tionP rioritiza tionS olutionsM e trics & Analytics
+M aking sense o f  these insigh ts t o build a solutionU ser  P er sona
+Ex c erp ts fr om I n t ervie w sA ft er  looking in t o these insigh ts w e can c onclude tha t, man y  S po tify  user s 
+ar e sa tisfied with a non-pr emium S po tify  ac c oun t. S po tify  isn ’t o ff ering them 
+enough o f  an inc en tiv e t o shift. A lso, the subscrip tion f ee is c ostly  and these 
+segmen t o f  user s ar e no t willing t o shell this much mone y .W e can also c onclude tha t the user s with S po tify  P r emium ar e sa tisfied with 
+their  e xperienc e t oo. H o w e v er , man y  user s with and without the subscrip tion 
+f eel tha t finding ne w  music is difficult. N o w , w e ar e trying t o solv e bo th these 
+pr oblems t o g e ther  so tha t disc o v ering ne w  music w ould be easier  and it will 
+also giv e some kind o f  r e w ar ds which will help bring do wn the pric e o f  
+pr emium indir ectly .S anika K ulkarni | 29 A dity a R ast o gi | 22B ackgr ound: S anika w orks in a str essful job and has w ork c ommitmen ts 
+till la t e e v ening some times e v en till nigh t. S he list ens t o music t o 
+un wind when w ork g e ts str essful and be f or e g oing t o sleep. S he ’ s a 
+subscriber  o f  S po tify  P r emium.B ackgr ound: A dity a liv es in a host el on his c olleg e campus. H e is 
+passiona t e about music and he is activ ely  in v olv ed in his c olleg e music 
+club. H e list ens t o music when he is a t the gym, or  when he g e ts bor ed 
+during study  sessionsP ain poin ts: F eels tha t S po tify  libr ary  is limit ed than it onc e w as, finds it 
+difficult t o disc o v er  ne w  music in her  pr e f err ed g enr esP ain poin ts: H e is disappoin t ed with the r ec en t chang es made b y  spo tify  
+wher e some f ea tur es w er e made pr emium only . S inc e, he is still a studen t 
+he canno t a ff or d t o pa y  f or  pr emium each mon th, e v en a ft er  the disc oun tN eeds: B e tt er  w a y s t o disc o v er  music fr om her  pr e f err ed g enr e o f  
+music N eeds: A v ailability  o f  v arious disc oun t op tions and o ff er s t o choose fr om 
+so tha t he does no t ha v e t o pa y  the full pric e each mon thS anika is a w orking pr o f essional based in M umbai. S he w orks 
+in the t echnolo gy  industry  and liv es on her  o wn.A dity a is a 4 th y ear  under gr adua t e studen t doing his B achelor s 
+in C omput er  S cienc e &  E ngineering
+“S ome times I am extr emely  tir ed fr om w orking long day s, so I just plug in m y  
+earphones and st art list ening t o the av ailable music. H o w e v er  m y  song 
+r e c ommendations seldom mat ch m y  mood f or  the day  and sinc e I don ’t kno w  
+about the names o f  songs I w an t t o list en t o, I am stuck in a rut list ening t o the 
+same type o f  music ”“S po tify  is an app I lo v e be c ause o f  its user  in t erf ac e and user  experienc e, 
+ho w e v er  the y  r e c en tly  r emo v ed some f eatur es fr om the fr e e plan. I w an t t o 
+up gr ade t o pr emium ho w e v er  that has t o w ait till I st art earing mone y , I c an ’t 
+aff or d it righ t no w”
+
+P r oblem Analy sisP r oblem V alida tionP rioritiza tionS olutionsM e trics & Analytics
+W ha t is the true pr oblem ?H o w  do w e kno w  it’ s a r eal pr oblem ?
+H o w  do w e kno w  it’ s a r eal pr oblem ?W ha t is the v alue g ener a t ed b y  solving this pr oblem ?U ser s ar e no t able t o find much v alue in 
+the music disc o v ery  f ea tur es o f  the app, 
+and the y  still r ely  on their  friends, 
+c olleagues or  their  memory  o f  the song’ s 
+lyrics t o find g ood songs
+T he pric e o f  S po tify  P r emium 
+demo tiv a t es the user s t o try  out S po tify  
+pr emium, e v en if  the y  ar e in t er est ed in 
+subscribing
+U ser s will be able t o disc o v er  the songs 
+a v ailable in S po tify  in a fun w a y  which will 
+cap tur e their  in t er est and k eep them 
+hook ed. T he y  will earn r e w ar ds based on 
+their  perf ormanc e which will giv e them a 
+disc oun t on S po tify  P r emium, thus giving 
+them a chanc e t o try  it out.U ser s will be able t o na viga t e the songs 
+a v ailable in S po tify  be tt er . T he y  will earn 
+e x clusiv e r e w ar ds no t a v ailable t o non-
+pr emium subscriber s based on their  
+perf ormanc e which will mo tiv a t e them t o 
+c on tinue using the P r emium v er sionT he solution w orks in a w a y  which will c ompel the user s 
+t o open the app daily 
+T his will help incr ease user  engag emen t within the ap
+I t will also giv e the user s an opportunity  t o try  the 
+pr emium f ea tur e o f  the app f or  a r educ ed pric e, so tha t 
+if  a user  lik es it, he/ she ma y  c on tinue using it. 52 . 5%  user s type wha t e v er  lyrics o f  the song the y  r emember  in t o the sear ch bar  o f  the app hoping t o find 
+a song, 50%  user s fr om the same user  gr oup depend on their  friends c olleagues t o giv e them g ood 
+r ec ommenda tions f or  a song
+ 52 . 5%  user s don ’t kno w  the c onc ep t behind S ha z am app. T he y  don ’t put as much e ff ort in t o looking f or  a 
+seper a t e app t o disc o v er  music and j ust use the inbuilt f ea tur es o f  their  pr e f err ed music app
+ 57 . 5%  user s don ’t ha v e a spo tify  pr emium subscrip tion, out o f  which 40%  f eel tha t the y  ar e sa tisfied with 
+the fr ee plan while 32%  f eel tha t the y  don ’t f eel righ t spending tha t much mone y  f or  the subscrip tion 
+based on the v alue it giv es.S po tify  r ec en tly  made some chang es in the fr ee plan. F ea tur es lik e shu ffl e, loop, e t c w er e made pr emium 
+only . W hen ask ed about this chang e, 52 . 5%  user s sa y  tha t the y  will abandon the app sinc e these f ea tur e 
+ar e importan t t o them while only  10%  ar e willing t o sta y  on the app and pa y  pr emium
+S po tify  will need t o mak e the P r emium subscrip tion w orth while f or  the user s and also mak e it a ff or dable 
+so as t o en tic e these user s t o sta y  and upgr ade t o pr emium.S po tify  w an ts t o incr ease the number  o f  
+activ e subscriber s o f  S po tify  P r emiumU ser’ s S ide:
+F or  the non-pr emium user sF or  the P r emium user sF or  the S po tify  A ppS po tify’ s S ide:
+
+PRIORITIZING THE SOL UTIONS (RICE FRAMEW ORK)SOL UTIONSREA CHEFF OR TIMP A CTC ONFIDENCEDE CISIONBRIEF  INF O ABOUT  THE SOL UTIONSF ea tur e lik e the S hazam app which 
+helps user s disc o v er  music b y  iden tify-
+ing audio fing erprin t o f  a songU ses phone ’ s micr ophone t o ga ther  a 
+sample o f  audio being pla y ed and helps 
+t o iden tify  the son
+S olv es the pr oblem o f  disc o v ery  o f  songsS end a snippe t o f  a song daily  t o y our  
+f ollo w er s/ f ollo wing and mak e them 
+guess the artist & g enr eM aking a c ommunity  within the app 
+only  f or  P r emium user sR e w ar ds f or  list ening t o songs, based 
+on a leaderboar dU sing gamifica tion within the spo tify  
+app t o incr ease user  engag emen tI t will en tic e user s t o open app dail
+I t will help in giving song r ec ommenda-
+tions t o people y ou kno w , also opening 
+up their  music tast eW ithin the c ommunity  y ou can ask f or  
+song r ec ommenda tions, f eedbacks, e t 
+T he c ommunity  w ould be e x clusiv e 
+based on a leaderboar d or  in vit e onl
+E ach g enr e will ha v e diff er en t c ommunityT he r e w ar ds include disc oun ts on S po tify  
+P r emium sub .  so tha t user s can try  it fir stM aking a q uiz within the S po tify  app 
+based on the music & artists 
+M aking the q uiz a v ailable onc e per  da y  t o 
+en tic e user s t o open the app dail
+ G iving disc oun ts on pr emium as r e w ar dsHMMMH
+MMHMM
+HMLLM
+HH igh  
+P riority
+( mak e  
+M V P)MHHM
+P r oblem  A naly sisP r oblem  V alida tionP rioritiza tionS olutionsM e trics  &  A nalytics
+
+
+P r oblem Analy sisP r oblem V alida tionP rioritiza tionS olutionsM e trics & Analytics
+H o w  does the solution w ork?
+Cr ea t e a blendO pen S po tify  quizI n vit e F riendsS ee ac c ep t ed in vit esS tart the quiz
+I t giv es the user  the opportunity  t o pla y  the quiz 
+with 10 pla y er s dir ectly , also capitalizing on blendsI n vit e an y one y ou w an t fr om the blend or  
+e v ery one. U p t o 10 pla y er s can pla y  the quizE ach question w ould ha v e 4 
+op tions and 120 sec onds t o solv eIn vit e fr iendsIn vit e y o ur fr iends fr om t his blend y o u 
+w ant t o pl a y t he quiz wit hEliz abet h H.
+B et han y D .
+Liam
+Ry an 
+M er edit h
+G r e g or J e ff er y
+Ak sha y P a t el
+Ak ash N a y a kRin M ar t inJ a k e W a k eIn vit e fr iendsIn vit e all
+In vit e fr iendsIn vit e y o ur fr iends fr om t his blend y o u 
+w ant t o pl a y t he quiz wit hEliz abet h H.
+B et han y D .
+Liam
+Ry an 
+M er edit hG r e g or J e ff er yAk sha y P a t el
+S t a r t Q u i zA c c e p t ed in vit es
+N o t a c c e p t ed
+Q u est i o n 1/ 1 0W ho is t he ar t ist of t he s on g  bein g  pl a y ed ?(Y ou ha v e 120 seconds to ans w er  this question. T ap 
+the button belo w  to pla y  the song )
+A n uv J ainA r i j it S in g hA r ma an M ali k
+Z aeden
+N e x t Q u est i o n
+( 60 /1 20 s ec left )0 / 20p t s
+
+
+P r oblem Analy sisP r oblem V alida tionP rioritiza tionS olutionsM e trics & Analytics
+H o w  does the solution w ork?H o w  do the r e w ar ds w ork?
+P r emium v s N on-P r emium r e w ar dsI nc orr ect Answ erC orr ect Answ erR e w ar ds
+W r ong answ er  does no t giv e y ou an y  poin ts, while 
+righ t answ er  giv es y ou 2 poin tsE v ery  da y  y ou can pla y  a quiz c onsisting o f  10 
+question
+I f  y ou earn 16 or  mor e poin ts each da y  
+c onsist en tly  f or  7 da y s in a r o w  y ou ar e eligible f or  
+the r e w ar d
+T he r e w ar ds can be based on the number  o f  
+poin ts y ou c ollect ed or  the number  o f  da y s y ou 
+c onsist en tly  pla y ed the qui
+P r emium user s ha v e mor e number  o f  r e w ar ds t o 
+choose fr om v s non-pr emium user sRewards for Premium users:
+D isc oun t on P r emium subscrip tion up t o 80
+A v ailabilty  o f  w eekly  & bi-w eekly  pr emium 
+subscrip tion pr o gr am
+A c c ess t o e x clusiv e podcasts or  music r eleases in 
+the futur 
+H in ts f or  the S po tify  Q uizz es
+
+Rewards for Non-Premium Users
+D isc oun t up t o 60% on P r emium subscrip tio
+A v ailability  o f  w eekly  pr emium subscrip tion 
+pr o gr amsA  similar  scr een w ould appear  
+listing out the se v er al r e w ar dsInc or r ect A ns w erT he s ong in qu est ion w as B a ar ishein s ung 
+b y t he singer-s ong wr it er A n uv J ain
+A n uv J ainA r ijit S inghA r ma an M alikZaeden
+N e x t Q u est i on
+( S orry , y ou earned 0 poin ts )0 / 20p t sH er e ’ s a full v ersion o f  the song-C or r ect A ns w erT he s ong in qu est ion w as B a ar ishein s ung 
+b y t he singer-s ong wr it er A n uv J ain
+A n uv J ainA r ijit S inghA r ma an M alikZaeden
+N e x t Q u est i on
+( C ongr a ts, y ou earned 2 poin ts )2 / 20p t sH er e ’ s a full v ersion o f  the song-
+
+
+WHA T  ARE THE RISKS INV OL VED?PITF ALLSMITIG A TIONSGO T O MARKET  STRA TE G YA ft er  some time the quizz es w ould 
+start g e tting r epe titiv e and user s 
+w ould start e xploiting the 
+r e w ar dsU ser s w ould st op buying pr emium 
+a t the original pric e and bec ome 
+r elian t on the r e w ar ds f or  buying 
+pr emiumU ser s will start g e tting bor ed with 
+the quizz es a ft er  some time and 
+st op doing it dailyT he user s who oc casionally  list en 
+t o music and don ’t pla y  quizz es 
+canno t r eap the bene fits o f  
+r e w ar dsA ft er  some time has passed mak e a 
+chang e in r e w ar ds and r e v amp the 
+s y st em o f  r e w ar ds. O ff er  ne w  se t o f  
+r e w ar ds based on the ne w  f ea tur es 
+added in the app in the futur e da t e.A dd ne w  type o f  games within the 
+app tha t ar e in line with the na tur e o f  
+the app and o ff er  r e w ar ds based on 
+these gamesM ak e special kind o f  r e w ar ds f or  
+r e turning user s so tha t the y  can find 
+the inc en tiv e t o pla y  quizz es and 
+r edeem r e w ar dsK eep tr ack o f  the questions ask ed in 
+the quizz es and onc e the y  start 
+g e tting r epe titiv e start adding ne w  
+se t o f  questions t o the quizz esLaunch S tr a t egyA ft er  r olling out the f ea tur eA w ar eness about the addition o f  quizz es P er sonaliza tion o f  the quizz esThe new feature will be first launched only to people in Tier I and Tier II 
+cities, according to the classification of Indian cities b y the go vt.
+(W e assume that the users in these cities are more a ware about the diff . 
+genres of music & artists and ma y respond to these quizzes better)The users can be informed about the quizzes through the podcasts 
+and e v en adv ertisements within the application.
+A guided tour can be put up for both the quizzes and rewards where a 
+sample quiz is put forth and autopla y ed. Once the quiz is done the 
+guided tour then proceeds on to how to redeem the rewards
+Music artists can promote these quizzes too during new music launchAfter sometime the quizzes can be made personalized and each user 
+would get different questions in quizzes based on the music the y 
+listen to so as to gener ate more user engagemen
+Also these quizzes can be implemented in the in app adv ertisements 
+on the app so as to mak e these adv ertisements engaging and not a 
+chore to watchP r o b le m  Analy s i sP r o b le m  V ali d a ti onP riori tiz a ti onS olu ti on sM e tric s  &  Analy ti c s
+
+
+IMPOR T ANT  METRICSA CTIV A TIONU ser s S ide ( Q uizz es & R e w ar ds )N orth S tar  M e tric:SE C OND ORDER THINKINGM e tricsR a tionale ENG A GEM-
+ENTRETENTIONREVENUEN o. o f  quizz es pla y ed b y  user  / w eek,
+N o. o f  r e w ar ds r edeemed b y  user s / 
+mon th, N o. o f  da y s wher e user  
+c on tinuously  pla y ed the quizz es, N o. 
+o f  non-pr emium user s who used 
+pr emium f or  1st time using r e w ar dsM easur es ho w  e ff ectiv ely  the user s 
+ar e engaging with the ne w  f ea tur eM easur es the number  o f  r epea t user s 
+and r e turning user s
+M easur es the r e v enue earned b y  
+S po tify  thr ough pr emium 
+subscrip tions be f or e and a ft er  
+o ff ering r e w ar dsT o tal no. o f  r e w ar ds f or  pr emium 
+subscrip tion r edeemed b y  each user , 
+# N o. o f  P r emium user s who pla y  the 
+quiz, # N e w  pr emium user s as 
+c ompar ed t o last mon th # T o tal v alue o f  r e w ar ds r edeemed b y  
+user s, # N e w  P r emium subscrip tions 
+without r e w ar ds, # N e w  P r emium 
+subscrip tions using r e w ar ds# U ser s who pla y ed their  fir st quiz,
+# U ser s who r edeemed their  fir st 
+r e w ar dN o. o f  quizz es pla y ed b y  user  / w eek & N o. o f  r e w ar ds r edeemed / mon thM easur es the number  o f  user s who 
+start using the ne w  f ea tur e
+P r oblem Analy sisP r oblem V alida tionP rioritiza tionS olutionsM e trics & Analytics
+A ft er  some time, the questions in quizz es w ould 
+seem r epe titiv e and user s w ould kno w  the 
+answ er s t o these questions.
+I t w ould then w ork against the idea o f  making 
+the quizz es and it w ould start g e tting e xploit ed 
+b y  user s
+G iving lar g e disc oun ts on the pr emium 
+subscrip tions w ould a ttr act user s t o w ar ds 
+buying pr emium although the number  o f  user s 
+buying pr emium a t the original pric e w ould be 
+less
+T his can cr ea t e a loss in r e v enue f or  the 
+c ompan y 
+W hile it w ould de finit ely  incr ease user  
+engag emen t with the app and add a fun t ouch 
+t o it, user s w ould bec ome r elian t on buying 
+pr emium with the help o f  r e w ar ds only  and no t 
+a t the original pric e. S o if  this f ea tur e is 
+r emo v ed in the futur e it w ould risk in loss o f  
+user s r elian t on this f ea tur e.
+

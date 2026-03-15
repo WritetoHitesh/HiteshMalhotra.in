@@ -1,0 +1,57 @@
+Respondent 1
+Name- John 
+Age- 34
+Occupation- Software Engineer
+Location- Los Angeles
+ User Segment
+Behaviour
+Works and goes to office in a day 
+ He is single and loves exploring
+new entertainment options.
+   Pain points
+John finds it difficult to find good
+ content towatch without subscribing 
+to a service.
+He also finds it hard to access
+ high-quality content.Respondent 2
+Name- Alex
+Age- 22
+Occupation- Freelancer
+Location- Vatican city
+ 
+Behaviour
+He is single and loves watching TV 
+ shows and movies.
+Low disposable income.
+Pain points
+ He finds it difficult to find a
+ streaming service that fits his lifestyle
+ and budget without requiring a 
+subscription.User segmentation is
+the process of
+separating users into
+distinct groups, or
+segments, based on
+shared characteristics.
+A company might
+segment users based
+on language
+preferences, product
+version, geographical
+region, or user persona.
+This user segment
+consist of working
+employees who do not
+currently a subscriber
+to a Netflix.
+ 
+
+Questionnaire
+Ques-1Can you share the reason that why you didn't subscribe to Netflix or any other
+streaming service?
+ Ques-2Do you Use any other streaming platform for video content?
+Ques-3How do you discover new shows and movies to watch in your free time ?
+Ques-4Do you prefer content that is localized or region-specific? Are there any languages or
+cultural preferences that you would like to see represented in streaming services?
+Ques-5Are there any other improvements would you like to see in streaming platforms?
+
