@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft, CheckCircle2 } from "lucide-react";
 import { FadeIn } from "@/components/MotionWrapper";
+import { MagneticButton } from "@/components/ui/MagneticButton";
 
 export const metadata = {
   title: "Services | Hitesh Malhotra",
@@ -70,53 +71,60 @@ export default function ServicesPage() {
         {/* Right Column - Contact Form */}
         <div>
           <div className="sticky top-24">
-            <h2 className="text-2xl font-bold mb-6">Let's Talk</h2>
-            <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" className="space-y-6">
-              <div className="space-y-2">
-                <label htmlFor="name" className="text-sm font-medium">Name</label>
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tighter mb-8">Let's Talk</h2>
+            <form action="https://formsubmit.co/WritetoHiteshMalhotra@gmail.com" method="POST" className="space-y-6">
+              {/* Optional: disable captcha for smoother UX */}
+              <input type="hidden" name="_captcha" value="false" />
+              
+              <div className="space-y-3">
+                <label htmlFor="name" className="text-xs font-mono uppercase tracking-widest text-muted-foreground">Name</label>
                 <input 
                   type="text" 
                   name="name" 
                   id="name" 
                   required 
-                  className="w-full bg-background border border-border rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-shadow"
+                  className="w-full bg-transparent border-b border-white/20 px-0 py-3 text-lg focus:outline-none focus:border-white transition-colors"
                   placeholder="Jane Doe"
                 />
               </div>
               
-              <div className="space-y-2">
-                <label htmlFor="email" className="text-sm font-medium">Email</label>
+              <div className="space-y-3 mt-8">
+                <label htmlFor="email" className="text-xs font-mono uppercase tracking-widest text-muted-foreground">Email</label>
                 <input 
                   type="email" 
                   name="email" 
                   id="email" 
                   required 
-                  className="w-full bg-background border border-border rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-shadow"
+                  className="w-full bg-transparent border-b border-white/20 px-0 py-3 text-lg focus:outline-none focus:border-white transition-colors"
                   placeholder="jane@company.com"
                 />
               </div>
               
-              <div className="space-y-2">
-                <label htmlFor="message" className="text-sm font-medium">Message</label>
+              <div className="space-y-3 mt-8">
+                <label htmlFor="message" className="text-xs font-mono uppercase tracking-widest text-muted-foreground">Message</label>
                 <textarea 
                   name="message" 
                   id="message" 
                   required 
-                  rows={5}
-                  className="w-full bg-background border border-border rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-shadow resize-none"
+                  rows={4}
+                  className="w-full bg-transparent border-b border-white/20 px-0 py-3 text-lg focus:outline-none focus:border-white transition-colors resize-none"
                   placeholder="Tell me about your project or current challenges..."
                 ></textarea>
               </div>
               
-              <button 
-                type="submit" 
-                className="w-full bg-foreground text-background font-medium py-3 rounded-lg hover:scale-[1.02] active:scale-[0.98] transition-all"
-              >
-                Send Message
-              </button>
+              <div className="pt-8">
+                <MagneticButton intensity={0.1} className="w-full block">
+                  <button 
+                    type="submit" 
+                    className="w-full bg-foreground text-background font-bold tracking-widest uppercase text-sm py-5 rounded-full hover:bg-white/90 transition-all cursor-pointer"
+                  >
+                    Send Message
+                  </button>
+                </MagneticButton>
+              </div>
               
-              <p className="text-xs text-muted-foreground text-center mt-4">
-                Powered by Formspree. I'll get back to you within 24 hours.
+              <p className="text-xs text-muted-foreground text-center mt-6">
+                Directly connected to my inbox. I'll get back to you within 24 hours.
               </p>
             </form>
           </div>
