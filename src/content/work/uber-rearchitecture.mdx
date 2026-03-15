@@ -1,0 +1,25 @@
+---
+title: "Uber Rearchitecture: Scaling the Rider App"
+description: "How we revamped the rider experience, focusing on micro-interactions and reducing perceived latency by 40%."
+date: "2025-10-12"
+tags: ["Product Strategy", "Growth", "Mobile"]
+---
+
+# The Challenge
+
+When scaling the Uber Rider App, the core challenge wasn't just backend latency—it was the **perceived latency** from the moment a user opened the app until they saw their ride options. 
+
+As the Product Manager for the Core Rider Experience, my goal was to streamline the funnel and introduce deterministic UI states that kept the user engaged during backend geocoding and pricing requests.
+
+## The Approach
+
+We took a three-pronged approach:
+1. **Skeleton States:** Replacing generic spinners with predictive UI geometry.
+2. **Pre-fetching:** Optimistically loading vehicle options based on historical data.
+3. **Micro-interactions:** Adding subtle haptics when drag-and-dropping the pin.
+
+> "The best interface is the one that feels like it's already finished loading."
+
+## The Impact
+
+By coordinating across iOS, Android, and Backend engineering teams, we successfully drove a **40% reduction in perceived wait times**, leading to a 2.4% lift in successful ride requests globally.
