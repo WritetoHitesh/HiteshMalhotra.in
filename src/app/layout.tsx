@@ -13,6 +13,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 import { Navbar } from "@/components/Navbar";
+import { CustomCursor } from "@/components/ui/CustomCursor";
 
 export const metadata: Metadata = {
   title: "Hitesh Malhotra | Product Manager",
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body
         className={`${archivo.variable} ${spaceGrotesk.variable} antialiased bg-background text-foreground min-h-screen flex flex-col font-sans`}
       >
+        <CustomCursor />
         <Navbar />
         <main className="flex-grow pt-24 pb-16">
           {children}

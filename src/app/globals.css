@@ -3,6 +3,14 @@
 @theme {
   --font-sans: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-heading: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  --color-primary: #111111;
+  --color-primary-foreground: #ffffff;
+  --color-muted: #111111;
+  --color-muted-foreground: #888888;
+  --color-border: #1a1a1a;
 }
 
 @layer base {
@@ -12,27 +20,14 @@
 }
 
 :root {
-  --background: #fafafa;
-  --foreground: #09090b;
+  --background: #000000;
+  --foreground: #ffffff;
   
-  --primary: #18181b;
+  --primary: #111111;
   --primary-foreground: #ffffff;
-  --muted: #f4f4f5;
-  --muted-foreground: #52525b; /* Ensures 4.5:1 contrast */
-  --border: #e4e4e7;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #09090b;
-    --foreground: #fafafa;
-    
-    --primary: #fafafa;
-    --primary-foreground: #09090b;
-    --muted: #27272a;
-    --muted-foreground: #a1a1aa;
-    --border: #27272a;
-  }
+  --muted: #111111;
+  --muted-foreground: #888888;
+  --border: #1a1a1a;
 }
 
 body {
@@ -41,24 +36,49 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Hide default cursor globally to use custom cursor */
+  cursor: none;
+}
+
+/* Ensure all interactive elements do not show the default pointer if we are using custom ones */
+a, button, input, textarea, select, [role="button"] {
+  cursor: none;
 }
 
 ::selection {
-  background-color: var(--foreground);
-  color: var(--background);
+  background-color: rgba(255,255,255,0.99);
+  color: #000;
 }
 
 .glass {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: rgba(10, 10, 10, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
-@media (prefers-color-scheme: light) {
-  .glass {
-    background: rgba(255, 255, 255, 0.85);
-    border: 1px solid rgba(0, 0, 0, 0.08);
-  }
+.glass:hover {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(20, 20, 20, 0.6);
+}
+
+/* Base utility for 9.9/10 bespoke typography clamps */
+.text-fluid-hero {
+  font-size: clamp(3rem, 8vw, 8rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.text-fluid-h2 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+/* Magnetic hover utility helper */
+.magnetic-wrap {
+  position: relative;
+  display: inline-block;
 }

@@ -2,87 +2,106 @@ import Link from "next/link";
 import { ArrowRight, Briefcase, Mail } from "lucide-react";
 import { getCaseStudies } from "@/lib/mdx";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/MotionWrapper";
+import { MagneticButton } from "@/components/ui/MagneticButton";
 
 export default function Home() {
-  // Fetch up to 2 of the most recent case studies for the featured section
-  const featuredStudies = getCaseStudies().slice(0, 2);
+  // Fetch up to 4 of the most recent case studies for the premium list view
+  const featuredStudies = getCaseStudies().slice(0, 4);
 
   return (
-    <StaggerContainer className="max-w-5xl mx-auto px-6 flex flex-col items-center justify-center min-h-[70vh]">
-      <div className="absolute top-0 -z-10 h-full w-full bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.15),rgba(255,255,255,0))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.1),rgba(255,255,255,0))]" />
+    <StaggerContainer className="flex flex-col items-center justify-center min-h-screen relative overflow-hidden px-6">
+      {/* Bespoke Core AI Glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-white opacity-[0.03] rounded-full blur-[120px] pointer-events-none -z-10" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-500 opacity-[0.02] rounded-full blur-[100px] pointer-events-none -z-10" />
       
-      <div className="space-y-8 text-center max-w-3xl">
+      <div className="w-full text-center max-w-[90vw] z-10 space-y-10 mt-20">
         <StaggerItem>
-          <div className="inline-flex items-center rounded-full border border-border/40 bg-muted/50 px-3 py-1 text-sm text-muted-foreground backdrop-blur-md">
-            <span className="flex h-2 w-2 rounded-full bg-green-500 mr-2 animate-pulse"></span>
-            Available for new opportunities
+          <div className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs tracking-widest uppercase text-muted-foreground backdrop-blur-md">
+            <span className="flex h-2 w-2 rounded-full bg-foreground mr-3 shadow-[0_0_10px_rgba(255,255,255,0.8)] animate-pulse"></span>
+            Availability: Accepting New Opportunities
           </div>
         </StaggerItem>
         
         <StaggerItem>
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
-            Building Products That <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-200 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400">Scale.</span>
+          <h1 className="text-fluid-hero font-bold tracking-tighter text-balance uppercase flex flex-col items-center">
+            <span>Building Products</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/30">That Scale.</span>
           </h1>
         </StaggerItem>
         
         <StaggerItem>
-          <p className="text-lg md:text-xl text-muted-foreground text-balance mx-auto max-w-2xl leading-relaxed">
-            I'm Hitesh, a Product Manager specializing in zero-to-one launches, growth strategy, and scaling user experiences for modern tech companies.
+          <p className="text-xl md:text-2xl text-muted-foreground text-balance mx-auto max-w-3xl leading-relaxed font-light tracking-wide">
+            I'm Hitesh, an AI Product Manager specializing in zero-to-one launches, growth strategy, and scaling user experiences for modern tech companies.
           </p>
         </StaggerItem>
         
         <StaggerItem>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-            <Link 
-              href="/work" 
-              className="flex items-center justify-center gap-2 bg-foreground text-background px-8 py-3 rounded-full font-medium transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto"
-            >
-              <Briefcase className="w-4 h-4" />
-              View Portfolio
-            </Link>
-            <Link 
-              href="/services" 
-              className="flex items-center justify-center gap-2 bg-muted/50 text-foreground border border-border/40 px-8 py-3 rounded-full font-medium transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto"
-            >
-              <Mail className="w-4 h-4" />
-              Hire for Consulting
-            </Link>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-12">
+            <MagneticButton intensity={0.2}>
+              <Link 
+                href="/work" 
+                className="flex items-center justify-center gap-3 bg-foreground text-background px-10 py-5 rounded-full text-sm tracking-widest uppercase transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto font-semibold"
+              >
+                <Briefcase className="w-4 h-4" />
+                View Portfolio
+              </Link>
+            </MagneticButton>
+            <MagneticButton intensity={0.2}>
+              <Link 
+                href="/services" 
+                className="flex items-center justify-center gap-3 bg-transparent text-foreground border border-white/20 px-10 py-5 rounded-full text-sm tracking-widest uppercase transition-colors hover:bg-white/5 active:scale-95 w-full sm:w-auto font-semibold"
+              >
+                <Mail className="w-4 h-4" />
+                Hire for Consulting
+              </Link>
+            </MagneticButton>
           </div>
         </StaggerItem>
       </div>
       
-      {/* Featured Section Preview */}
-      <FadeIn delay={0.4} className="mt-32 w-full text-left">
-        <div className="flex items-center justify-between mb-8 border-b border-border/40 pb-4">
-          <h2 className="text-2xl font-bold">Featured Work</h2>
-          <Link href="/work" className="text-sm flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors">
-            View all <ArrowRight className="w-4 h-4" />
+      {/* Featured Section Preview - Premium List View */}
+      <FadeIn delay={0.4} className="mt-40 w-full text-left max-w-5xl mx-auto z-10">
+        <div className="flex items-end justify-between mb-12 border-b border-white/10 pb-6">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tighter">Featured Work</h2>
+          <Link href="/work" className="text-sm uppercase tracking-widest flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-semibold py-2">
+            View Archive <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-6">
-          {featuredStudies.map((study) => (
-            <Link key={study.slug} href={`/work/${study.slug}`} className="group block h-full">
-              <div className="glass rounded-xl p-6 h-full transition-all duration-300 hover:border-foreground/20 hover:shadow-lg hover:-translate-y-1 relative overflow-hidden flex flex-col">
-                <div className="absolute top-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity translate-x-4 group-hover:translate-x-0 group-hover:-translate-y-1">
-                  <ArrowRight className="w-5 h-5" />
+        <div className="flex flex-col border-t border-white/5">
+          {featuredStudies.map((study, index) => (
+            <Link key={study.slug} href={`/work/${study.slug}`} className="group block w-full border-b border-white/5 py-10 transition-colors hover:bg-white/[0.02]">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 px-4">
+                <div className="flex-1 space-y-2 relative">
+                  <p className="text-xs text-muted-foreground font-mono mb-2 flex items-center gap-3">
+                    <span className="w-6 h-px bg-muted-foreground/30"></span>
+                    {study.date}
+                  </p>
+                  <h3 className="text-2xl md:text-4xl font-bold tracking-tight group-hover:pl-4 transition-all duration-300">
+                    {study.title}
+                  </h3>
+                  <p className="text-muted-foreground text-sm max-w-xl group-hover:pl-4 transition-all duration-300 delay-75">
+                    {study.description}
+                  </p>
                 </div>
-                <p className="text-xs text-muted-foreground font-mono mb-3">{study.date}</p>
-                <h3 className="text-xl font-bold mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-foreground group-hover:to-muted-foreground transition-colors">{study.title}</h3>
-                <p className="text-muted-foreground text-sm line-clamp-2 mb-4">{study.description}</p>
                 
-                <div className="mt-auto flex flex-wrap gap-2">
-                  {study.tags.map((tag) => (
-                    <span key={tag} className="px-2 py-1 text-xs rounded-md bg-muted text-muted-foreground">{tag}</span>
+                <div className="flex flex-wrap items-center gap-3 md:w-1/3 md:justify-end">
+                  {study.tags.slice(0, 3).map((tag) => (
+                    <span key={tag} className="px-3 py-1 text-xs border border-white/10 rounded-full text-muted-foreground group-hover:border-white/30 transition-colors">
+                      {tag}
+                    </span>
                   ))}
+                  <div className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ml-4 group-hover:bg-white group-hover:text-black">
+                    <ArrowRight className="w-4 h-4" />
+                  </div>
                 </div>
               </div>
             </Link>
           ))}
           
           {featuredStudies.length === 0 && (
-            <div className="col-span-2 border border-dashed border-border/60 rounded-xl p-6 h-full flex items-center justify-center text-muted-foreground text-sm italic">
-              Add some case studies to the content folder to see them here!
+            <div className="py-20 text-center border-b border-white/5 text-muted-foreground text-sm italic tracking-widest uppercase">
+              Add case studies to see them here.
             </div>
           )}
         </div>
