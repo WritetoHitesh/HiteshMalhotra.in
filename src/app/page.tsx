@@ -1,7 +1,11 @@
 import Link from "next/link";
 import { ArrowRight, Briefcase, Mail } from "lucide-react";
+import { getCaseStudies } from "@/lib/mdx";
 
 export default function Home() {
+  // Fetch up to 2 of the most recent case studies for the featured section
+  const featuredStudies = getCaseStudies().slice(0, 2);
+
   return (
     <div className="max-w-5xl mx-auto px-6 flex flex-col items-center justify-center min-h-[70vh]">
       <div className="absolute top-0 -z-10 h-full w-full bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.15),rgba(255,255,255,0))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.1),rgba(255,255,255,0))]" />
@@ -48,26 +52,30 @@ export default function Home() {
         </div>
         
         <div className="grid md:grid-cols-2 gap-6">
-          <Link href="/work/uber-rearchitecture" className="group block h-full">
-            <div className="glass rounded-xl p-6 h-full transition-all duration-300 hover:border-foreground/20 hover:shadow-lg hover:-translate-y-1 relative overflow-hidden">
-              <div className="absolute top-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity translate-x-4 group-hover:translate-x-0 group-hover:-translate-y-1">
-                <ArrowRight className="w-5 h-5" />
+          {featuredStudies.map((study) => (
+            <Link key={study.slug} href={`/work/${study.slug}`} className="group block h-full">
+              <div className="glass rounded-xl p-6 h-full transition-all duration-300 hover:border-foreground/20 hover:shadow-lg hover:-translate-y-1 relative overflow-hidden flex flex-col">
+                <div className="absolute top-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity translate-x-4 group-hover:translate-x-0 group-hover:-translate-y-1">
+                  <ArrowRight className="w-5 h-5" />
+                </div>
+                <p className="text-xs text-muted-foreground font-mono mb-3">{study.date}</p>
+                <h3 className="text-xl font-bold mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-foreground group-hover:to-muted-foreground transition-colors">{study.title}</h3>
+                <p className="text-muted-foreground text-sm line-clamp-2 mb-4">{study.description}</p>
+                
+                <div className="mt-auto flex flex-wrap gap-2">
+                  {study.tags.map((tag) => (
+                    <span key={tag} className="px-2 py-1 text-xs rounded-md bg-muted text-muted-foreground">{tag}</span>
+                  ))}
+                </div>
               </div>
-              <p className="text-xs text-muted-foreground font-mono mb-3">2025-10-12</p>
-              <h3 className="text-xl font-bold mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-foreground group-hover:to-muted-foreground transition-colors">Uber Rearchitecture: Scaling the Rider App</h3>
-              <p className="text-muted-foreground text-sm line-clamp-2">How we revamped the rider experience, focusing on micro-interactions and reducing perceived latency by 40%.</p>
-              
-              <div className="mt-6 flex flex-wrap gap-2">
-                <span className="px-2 py-1 text-xs rounded-md bg-muted text-muted-foreground">Product Strategy</span>
-                <span className="px-2 py-1 text-xs rounded-md bg-muted text-muted-foreground">Growth</span>
-                <span className="px-2 py-1 text-xs rounded-md bg-muted text-muted-foreground">Mobile</span>
-              </div>
+            </Link>
+          ))}
+          
+          {featuredStudies.length === 0 && (
+            <div className="col-span-2 border border-dashed border-border/60 rounded-xl p-6 h-full flex items-center justify-center text-muted-foreground text-sm italic">
+              Add some case studies to the content folder to see them here!
             </div>
-          </Link>
-          {/* We will map real case studies here later */}
-          <div className="border border-dashed border-border/60 rounded-xl p-6 h-full flex items-center justify-center text-muted-foreground text-sm italic">
-            More studies coming soon...
-          </div>
+          )}
         </div>
       </div>
     </div>
