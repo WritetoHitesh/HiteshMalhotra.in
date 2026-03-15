@@ -1,49 +1,58 @@
 import Link from "next/link";
 import { ArrowRight, Briefcase, Mail } from "lucide-react";
 import { getCaseStudies } from "@/lib/mdx";
+import { FadeIn, StaggerContainer, StaggerItem } from "@/components/MotionWrapper";
 
 export default function Home() {
   // Fetch up to 2 of the most recent case studies for the featured section
   const featuredStudies = getCaseStudies().slice(0, 2);
 
   return (
-    <div className="max-w-5xl mx-auto px-6 flex flex-col items-center justify-center min-h-[70vh]">
+    <StaggerContainer className="max-w-5xl mx-auto px-6 flex flex-col items-center justify-center min-h-[70vh]">
       <div className="absolute top-0 -z-10 h-full w-full bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.15),rgba(255,255,255,0))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.1),rgba(255,255,255,0))]" />
       
       <div className="space-y-8 text-center max-w-3xl">
-        <div className="inline-flex items-center rounded-full border border-border/40 bg-muted/50 px-3 py-1 text-sm text-muted-foreground backdrop-blur-md">
-          <span className="flex h-2 w-2 rounded-full bg-green-500 mr-2 animate-pulse"></span>
-          Available for new opportunities
-        </div>
+        <StaggerItem>
+          <div className="inline-flex items-center rounded-full border border-border/40 bg-muted/50 px-3 py-1 text-sm text-muted-foreground backdrop-blur-md">
+            <span className="flex h-2 w-2 rounded-full bg-green-500 mr-2 animate-pulse"></span>
+            Available for new opportunities
+          </div>
+        </StaggerItem>
         
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
-          Building Products That <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-200 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400">Scale.</span>
-        </h1>
+        <StaggerItem>
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
+            Building Products That <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-200 to-neutral-500 dark:from-neutral-100 dark:to-neutral-400">Scale.</span>
+          </h1>
+        </StaggerItem>
         
-        <p className="text-lg md:text-xl text-muted-foreground text-balance mx-auto max-w-2xl leading-relaxed">
-          I'm Hitesh, a Product Manager specializing in zero-to-one launches, growth strategy, and scaling user experiences for modern tech companies.
-        </p>
+        <StaggerItem>
+          <p className="text-lg md:text-xl text-muted-foreground text-balance mx-auto max-w-2xl leading-relaxed">
+            I'm Hitesh, a Product Manager specializing in zero-to-one launches, growth strategy, and scaling user experiences for modern tech companies.
+          </p>
+        </StaggerItem>
         
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-          <Link 
-            href="/work" 
-            className="flex items-center justify-center gap-2 bg-foreground text-background px-8 py-3 rounded-full font-medium transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto"
-          >
-            <Briefcase className="w-4 h-4" />
-            View Portfolio
-          </Link>
-          <Link 
-            href="/services" 
-            className="flex items-center justify-center gap-2 bg-muted/50 text-foreground border border-border/40 px-8 py-3 rounded-full font-medium transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto"
-          >
-            <Mail className="w-4 h-4" />
-            Hire for Consulting
-          </Link>
-        </div>
+        <StaggerItem>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+            <Link 
+              href="/work" 
+              className="flex items-center justify-center gap-2 bg-foreground text-background px-8 py-3 rounded-full font-medium transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto"
+            >
+              <Briefcase className="w-4 h-4" />
+              View Portfolio
+            </Link>
+            <Link 
+              href="/services" 
+              className="flex items-center justify-center gap-2 bg-muted/50 text-foreground border border-border/40 px-8 py-3 rounded-full font-medium transition-transform hover:scale-105 active:scale-95 w-full sm:w-auto"
+            >
+              <Mail className="w-4 h-4" />
+              Hire for Consulting
+            </Link>
+          </div>
+        </StaggerItem>
       </div>
       
       {/* Featured Section Preview */}
-      <div className="mt-32 w-full text-left">
+      <FadeIn delay={0.4} className="mt-32 w-full text-left">
         <div className="flex items-center justify-between mb-8 border-b border-border/40 pb-4">
           <h2 className="text-2xl font-bold">Featured Work</h2>
           <Link href="/work" className="text-sm flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors">
@@ -77,7 +86,7 @@ export default function Home() {
             </div>
           )}
         </div>
-      </div>
-    </div>
+      </FadeIn>
+    </StaggerContainer>
   );
 }
