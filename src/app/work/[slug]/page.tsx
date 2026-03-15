@@ -2,8 +2,8 @@ import { getCaseStudyBySlug, getCaseStudies } from "@/lib/mdx";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
-import { FadeIn, StaggerContainer, StaggerItem } from "@/components/MotionWrapper";
+import { ArrowLeft, FileDown } from "lucide-react";
+import { StaggerContainer, StaggerItem } from "@/components/MotionWrapper";
 
 export async function generateStaticParams() {
   const studies = getCaseStudies();
@@ -55,15 +55,27 @@ export default async function CaseStudyPage(props: { params: Promise<{ slug: str
         </Link>
       </StaggerItem>
       
-      <StaggerItem className="mb-16 border-b border-border/40 pb-12">
+      <StaggerItem className="mb-16 border-b border-white/10 pb-12">
         <header>
-          <p className="text-sm font-mono text-muted-foreground mb-4">{study.date}</p>
+          <div className="flex justify-between items-start mb-4">
+            <p className="text-sm font-mono text-muted-foreground">{study.date}</p>
+            {study.pdfUrl && (
+              <a 
+                href={study.pdfUrl} 
+                download
+                className="flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-white/60 hover:text-white transition-colors"
+                title="Download original case study PDF"
+              >
+                <FileDown className="w-4 h-4" /> Download source
+              </a>
+            )}
+          </div>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-balance">{study.title}</h1>
           <p className="text-xl text-muted-foreground leading-relaxed text-balance mb-8">{study.description}</p>
           
           <div className="flex flex-wrap gap-2">
             {study.tags.map((tag) => (
-              <span key={tag} className="px-3 py-1.5 text-xs font-medium rounded-full bg-muted text-foreground border border-border/40">
+              <span key={tag} className="px-3 py-1.5 text-xs font-medium rounded-full bg-white/5 text-foreground border border-white/10">
                 {tag}
               </span>
             ))}

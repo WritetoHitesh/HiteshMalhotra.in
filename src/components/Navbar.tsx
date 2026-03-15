@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 const navItems = [
   { path: "/", label: "Home" },
   { path: "/work", label: "Work" },
+  { path: "/teardowns", label: "Teardowns" },
   { path: "/services", label: "Services" },
   { path: "/about", label: "About" },
 ];

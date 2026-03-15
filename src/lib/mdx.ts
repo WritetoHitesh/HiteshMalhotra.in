@@ -2,9 +2,10 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const contentDir = path.join(process.cwd(), 'src', 'content', 'work');
+const workDir = path.join(process.cwd(), 'src', 'content', 'work');
+const teardownDir = path.join(process.cwd(), 'src', 'content', 'teardowns');
 
-export type CaseStudy = {
+export type ContentItem = {
   slug: string;
   title: string;
   date: string;
@@ -12,17 +13,18 @@ export type CaseStudy = {
   tags: string[];
   heroImage?: string;
   content: string;
+  pdfUrl?: string;
 };
 
-export function getCaseStudies(): Omit<CaseStudy, 'content'>[] {
-  if (!fs.existsSync(contentDir)) return [];
+function getItems(directory: string): Omit<ContentItem, 'content'>[] {
+  if (!fs.existsSync(directory)) return [];
   
-  const files = fs.readdirSync(contentDir);
+  const files = fs.readdirSync(directory);
   
-  const caseStudies = files
+  return files
     .filter((file) => file.endsWith('.mdx'))
     .map((file) => {
-      const filePath = path.join(contentDir, file);
+      const filePath = path.join(directory, file);
       const fileContent = fs.readFileSync(filePath, 'utf8');
       const { data } = matter(fileContent);
       
@@ -33,15 +35,14 @@ export function getCaseStudies(): Omit<CaseStudy, 'content'>[] {
         description: data.description || '',
         tags: data.tags || [],
         heroImage: data.heroImage,
+        pdfUrl: data.pdfUrl,
       };
     })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-    
-  return caseStudies;
 }
 
-export function getCaseStudyBySlug(slug: string): CaseStudy | null {
-  const filePath = path.join(contentDir, `${slug}.mdx`);
+function getItemBySlug(directory: string, slug: string): ContentItem | null {
+  const filePath = path.join(directory, `${slug}.mdx`);
   
   if (!fs.existsSync(filePath)) return null;
   
@@ -55,6 +56,13 @@ export function getCaseStudyBySlug(slug: string): CaseStudy | null {
     description: data.description || '',
     tags: data.tags || [],
     heroImage: data.heroImage,
+    pdfUrl: data.pdfUrl,
     content,
   };
 }
+
+export const getCaseStudies = () => getItems(workDir);
+export const getCaseStudyBySlug = (slug: string) => getItemBySlug(workDir, slug);
+
+export const getTeardowns = () => getItems(teardownDir);
+export const getTeardownBySlug = (slug: string) => getItemBySlug(teardownDir, slug);
