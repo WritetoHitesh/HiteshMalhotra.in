@@ -18,20 +18,20 @@ export default function Home() {
         <StaggerItem>
           <div className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs tracking-widest uppercase text-muted-foreground backdrop-blur-md">
             <span className="flex h-2 w-2 rounded-full bg-foreground mr-3 shadow-[0_0_10px_rgba(255,255,255,0.8)] animate-pulse"></span>
-            Availability: Accepting New Opportunities
+            STATUS: AVAILABLE FOR CONSULTING AND ADVISING
           </div>
         </StaggerItem>
         
         <StaggerItem>
           <h1 className="text-fluid-hero font-bold tracking-tighter text-balance uppercase flex flex-col items-center">
-            <span>Building Products</span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/30">That Scale.</span>
+            <span>Engineering</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/30">Growth.</span>
           </h1>
         </StaggerItem>
         
         <StaggerItem>
           <p className="text-xl md:text-2xl text-muted-foreground text-balance mx-auto max-w-3xl leading-relaxed font-light tracking-wide">
-            I'm Hitesh, an AI Product Manager specializing in zero-to-one launches, growth strategy, and scaling user experiences for modern tech companies.
+            I partner with high-growth startups to navigate 0-to-1 launches and fix broken user journeys. Deep technical execution meets precision product strategy.
           </p>
         </StaggerItem>
         

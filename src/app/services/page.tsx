@@ -10,23 +10,23 @@ export const metadata = {
 
 const offerings = [
   {
-    title: "Product Strategy Audit",
-    price: "Custom",
+    title: "Comprehensive Product Audit",
+    price: "Custom Engagement",
     features: [
-      "Deep dive into your current product roadmap",
-      "User journey friction analysis",
-      "Competitive positioning review",
-      "Actionable 30-60-90 day execution plan",
+      "Pinpoint exactly where users drop off in your core funnels",
+      "Align your current roadmap directly with revenue goals",
+      "Benchmark your UX and strategic positioning against top competitors",
+      "Receive a relentless, actionable 90-day execution plan",
     ],
   },
   {
-    title: "Zero to One Launch",
-    price: "Custom",
+    title: "Zero-to-One Architecture",
+    price: "Custom Engagement",
     features: [
-      "Validating problem space and MVP definition",
-      "Go-to-market strategy alignment",
-      "Establishing initial metrics and KPIs",
-      "Managing build phase with engineering",
+      "Turn ambiguous core problems into validated, testable MVPs",
+      "Define strict Go-To-Market strategies to ensure launch traction",
+      "Set up North Star metrics and KPI instrumentation from day zero",
+      "Manage tight engineering handoffs to guarantee shipping velocity",
     ],
   },
 ];
@@ -34,10 +34,10 @@ const offerings = [
 export default function ServicesPage() {
   return (
     <FadeIn className="max-w-5xl mx-auto px-6 py-12">
-      <div className="mb-16 max-w-2xl">
-        <h1 className="text-4xl font-bold tracking-tight mb-4 text-balance">Work With Me</h1>
-        <p className="text-lg text-muted-foreground leading-relaxed text-balance">
-          I partner with startups and scale-ups to align business goals with user needs, turning complex problems into high-impact products.
+      <div className="mb-20 max-w-3xl">
+        <h1 className="text-fluid-h2 font-bold tracking-tighter mb-6 uppercase">Let's Build Something That Scales.</h1>
+        <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed font-light tracking-wide">
+          Stop guessing what your users want. I partner with founders to audit broken funnels, architect zero-to-one launches, and perfectly align engineering pipelines with business outcomes.
         </p>
       </div>
 
